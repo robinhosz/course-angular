@@ -10,6 +10,8 @@ import { EventsComponent } from './components/events/events.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesClassComponent } from './components/pipes-class/pipes-class.component';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     EmitterComponent,
     ChangeNumberComponent,
     ListRenderComponent,
+    PipesClassComponent,
   ],
   imports: [
     BrowserModule
