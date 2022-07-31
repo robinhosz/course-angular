@@ -1,11 +1,8 @@
 <h1>Hello World!</h1>
+<nav>
+    <a routerLink="/">Home</a> <br>
+    <a routerLink="/list">Listas de animais</a> <br>
+    <a routerLink="/events">Events </a>
+</nav>
 <h2>O css não vaza haha!</h2>
-<app-first-component></app-first-component>
-<app-data [name]="userName" [userData]="userData"></app-data>
-<app-directives></app-directives>
-<app-if-rende></app-if-rende>
-<app-events></app-events>
-<app-emitter></app-emitter>
-<app-list-render></app-list-render>
-<app-pipes-class></app-pipes-class>
-<app-two-way-binding></app-two-way-binding>
+<router-outlet></router-outlet>
