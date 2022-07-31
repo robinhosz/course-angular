@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { DataComponent } from './components/parent/data/data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRendeComponent } from './components/if-rende/if-rende.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { DirectivesComponent } from './components/directives/directives.componen
     FirstComponentComponent,
     DataComponent,
     DirectivesComponent,
+    IfRendeComponent,
   ],
   imports: [
     BrowserModule
