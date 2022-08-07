@@ -9,11 +9,13 @@ export class DirectivesComponent implements OnInit {
 
   size = 40;
   font = 'Arial';
-  color = 'black';
+  color = 'red';
 
   classes = ['green-title', 'small-title'];
 
   underline = 'underline-title';
+
+  isAdmin: boolean = true;
 
   constructor() { }
 

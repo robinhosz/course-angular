@@ -3,4 +3,11 @@
 <h2 [ngClass]="classes">Testando diretiva de  classe 1</h2>
 <h2 [ngClass]="classes">Testando diretiva de  classe 2</h2>
 <h2 [ngClass]="underline">Testando diretiva de  classe 2</h2>
+<h2 *ngIf="isAdmin == true"; else nameNotFound > Não é administrador</h2>
+
+<ng-template #nameNotFound>
+    <div>
+        <h2>O nome não foi encontrado</h2>
+    </div>
+</ng-template>
 </div>
